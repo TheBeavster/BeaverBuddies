@@ -27,6 +27,7 @@ using Timberborn.EntitySystem;
 using Timberborn.ForestryEffects;
 using Timberborn.GameSaveRuntimeSystem;
 using Timberborn.GameScene;
+using Timberborn.GameSceneLoading;
 using Timberborn.GameSound;
 using Timberborn.InputSystem;
 using Timberborn.NaturalResourcesModelSystem;
@@ -42,6 +43,7 @@ using Timberborn.ToolSystem;
 using Timberborn.WalkingSystem;
 using Timberborn.WaterBuildings;
 using Timberborn.WorkshopsEffects;
+using Timberborn.WorkSystem;
 using TimberNet;
 using UnityEngine;
 using static BeaverBuddies.SingletonManager;
@@ -463,6 +465,7 @@ namespace BeaverBuddies
             typeof(TerrainBlockRandomizer),
             typeof(ObservatoryAnimator),
             typeof(WaterInputPipeSegmentCreator),
+            typeof(GameSceneLoader),
         };
 
         // Currently unused - could be used for warnings on items we don't

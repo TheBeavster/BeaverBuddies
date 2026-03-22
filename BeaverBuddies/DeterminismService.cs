@@ -17,7 +17,6 @@ using Timberborn.Analytics;
 using Timberborn.Autosaving;
 using Timberborn.BaseComponentSystem;
 using Timberborn.Beavers;
-using Timberborn.BeaverPopulation;
 using Timberborn.BlueprintSystem;
 using Timberborn.BotUpkeep;
 using Timberborn.Brushes;
